@@ -1,9 +1,13 @@
 {
-  "manifest_version": 3,
-  "name": "My Extension",
+  "manifest_version": 2,
+  "name": "BibTeX Collector",
   "version": "1.0",
-  "description": "My first Chrome extension.",
-  "permissions": ["activeTab", "storage", "tabs"],
+  "permissions": [
+    "tabs",
+    "storage",
+    "nativeMessaging",
+    "https://api.example.com/"
+  ],
   "background": {
     "service_worker": "background.js"
   },
@@ -13,5 +17,11 @@
       "matches": ["<all_urls>"],
       "js": ["content.js"]
     }
+  ],
+  "action": {
+    "default_title": "Collect BibTeX"
+  },
+  "host_permissions": [
+    "https://*.example.com/*"
   ]
 }

@@ -21,6 +21,7 @@ function processBibtexEntry(entry) {
 
 // Define the path of the input and output files
 const historyPath = path.join(__dirname, `${intermoduleDataDir}/history.json`);
+console.log('History file path:', historyPath);
 const outputPath = path.join(__dirname, `${intermoduleDataDir}/history.bib`);
 
 // Read and parse the history file
@@ -57,3 +58,11 @@ if (urls === null) {
       console.error(error);
     });
 }
+
+// Implement a file watcher to detect changes
+fs.watch(historyPath, (eventType, filename) => {
+  if (eventType === 'change') {
+    console.log(`File ${filename} has been changed`);
+    // Re-read the file here
+  }
+});

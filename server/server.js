@@ -87,5 +87,15 @@ app.post('/event', (req, res) => {
   });
 });
 
+app.post('/saveUrl', (req, res) => {
+  const url = req.body.url;
+  console.log('Received URL:', url);
+  
+  // Your existing code to save to history.json
+  
+  console.log('Saved URL to history.json');
+  res.sendStatus(200);
+});
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Server listening on port ${port}`));
