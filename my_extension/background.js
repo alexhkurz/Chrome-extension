@@ -31,7 +31,44 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
   }
 })
 
-function updateHistory (tab, event) {
+// Track when the user highlights text
+chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  console.log('Message received:', message);
+  if (message.type === 'highlight' || message.type === 'copy') {
+    console.log('Highlight or copy message received.');
+    const event = {
+      event: message.type,
+      text: message.text,
+      timestamp: Date.now()
+    };
+    console.log(`${message.type.charAt(0).toUpperCase() + message.type.slice(1)} message received:`, message.text, 'from', sender);
+    chrome.storage.sync.get(['history'], function(result) {
+      const history = result.history ? result.history : [];
+      history.push(event);
+      chrome.storage.sync.set({ history }, function() {
+        console.log(`${message.type.charAt(0).toUpperCase() + message.type.slice(1)} text added to history.`);
+        console.log('History:', history);
+      });
+      fetch('http://localhost:3000/event', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(event)
+      }).then(response => {
+        if (!response.ok) {
+          console.error(`Failed to send ${message.type} event to server:`, response.statusText);
+        } else {
+          console.log(`${message.type.charAt(0).toUpperCase() + message.type.slice(1)} event sent to server successfully.`);
+        }
+      }).catch(error => {
+        console.error(`Error sending ${message.type} event to server:`, error);
+      });
+    });
+  }
+});
+
+function updateHistory(tab, event) {
   chrome.storage.sync.get(['history'], function(result) {
     const history = result.history ? result.history : []
     const prev = history[history.length-1]
