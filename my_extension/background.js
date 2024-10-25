@@ -54,6 +54,7 @@ function updateHistory (tab, event) {
         console.log('URL ' + tab.url + ' added to history.')
         console.log('History:', history)
       })
+      console.log('Attempting to fetch:', 'http://localhost:3000/event');
       fetch('http://localhost:3000/event', {
         method: 'POST',
         headers: {
@@ -61,6 +62,28 @@ function updateHistory (tab, event) {
         },
         body: JSON.stringify(curr)
       })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json(); // or response.text() depending on what you're expecting
+      })
+      .then(data => {
+        console.log('Success:', data);
+      })
+      .catch(error => {
+        console.error('Error:', error.message);
+        console.error('Error details:', error);
+      });
     }
   })
 }
+
+chrome.action.onClicked.addListener((tab) => {
+  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+    let activeTab = tabs[0];
+    chrome.tabs.sendMessage(activeTab.id, {"message": "collect_bibtex"});
+  });
+});
+
+const serverUrl = 'http://localhost:3000'; 

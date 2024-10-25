@@ -29,6 +29,12 @@ app.use((req, res, next) => {
 
 app.use(express.json());
 
+app.use((req, res, next) => {
+  const dataSize = JSON.stringify(req.body).length;
+  console.log(`Received request with data size: ${dataSize} bytes`);
+  next();
+});
+
 app.post('/visitedUrls', (req, res) => {
   console.log('Received visited URLs: ', req.body.visitedUrls);
   console.log('Data:', req.body);
@@ -43,7 +49,7 @@ app.post('/visitedUrls', (req, res) => {
 });
 
 app.post('/event', (req, res) => {
-  console.log('Data:', req.body);
+  console.log('Event received:', req.body);
   if (!fs.existsSync(intermoduleDataDir)){
       fs.mkdirSync(intermoduleDataDir);
   }
@@ -63,7 +69,11 @@ app.post('/event', (req, res) => {
       history = JSON.parse(data);
     } catch (e) {
       console.error('Error parsing JSON:', e);
+      console.error('Problematic JSON data:', data);
       history = [];
+    }
+    if (req.body.event === 'highlight' || req.body.event === 'copy') {
+      console.log(`${req.body.event.charAt(0).toUpperCase() + req.body.event.slice(1)} event received:`, req.body);
     }
     history.push(req.body);
     fs.writeFile(`${intermoduleDataDir}/history.json`, JSON.stringify(history, null, 2), err => {
@@ -75,6 +85,16 @@ app.post('/event', (req, res) => {
       }
     });
   });
+});
+
+app.post('/saveUrl', (req, res) => {
+  const url = req.body.url;
+  console.log('Received URL:', url);
+  
+  // Your existing code to save to history.json
+  
+  console.log('Saved URL to history.json');
+  res.sendStatus(200);
 });
 
 const port = process.env.PORT || 3000;

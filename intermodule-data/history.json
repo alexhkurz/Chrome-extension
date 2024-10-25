@@ -1,52 +1,92 @@
 [
   {
     "event": "windowFocusChanged",
-    "id": 2107285336,
-    "url": "https://arxiv.org/pdf/1210.1433",
-    "title": "arxiv.org/pdf/1210.1433",
-    "windowId": 2107285335,
+    "id": 2062043838,
+    "url": "https://ieeexplore.ieee.org/document/10034461",
+    "title": "Dual-Band Dual-Polarized Planar Antenna for 5G Millimeter-Wave Antenna-in-Package Applications | IEEE Journals & Magazine | IEEE Xplore",
+    "windowId": 2062043718,
     "groupId": -1,
-    "lastAccessed": 1726351107128.599,
-    "timestamp": 1726351253548
+    "lastAccessed": 1727405601016.252,
+    "timestamp": 1727405601056
   },
   {
-    "event": "tabActivated",
-    "id": 2107285340,
-    "url": "https://arxiv.org/pdf/1611.04231",
-    "title": "arxiv.org/pdf/1611.04231",
-    "windowId": 2107285335,
-    "groupId": -1,
-    "lastAccessed": 1726351301682.785,
-    "timestamp": 1726351301710
+    "event": "highlight",
+    "text": "@ARTICLE{10034461,\r\n  author={Siddiqui, Zeeshan and Sonkki, Marko and Rasilainen, Kimmo and Chen, Jiangcheng and Berg, Markus and Leinonen, Marko E. and Pärssinen, Aarno},\r\n  journal={IEEE Transactions on Antennas and Propagation}, \r\n  title={Dual-Band Dual-Polarized Planar Antenna for 5G Millimeter-Wave Antenna-in-Package Applications}, \r\n  year={2023},\r\n  volume={71},\r\n  number={4},\r\n  pages={2908-2921},\r\n  keywords={Antennas;Bandwidth;Dual band;Antenna feeds;5G mobile communication;Microstrip antennas;Microstrip;Aperture-coupled;base station antenna;stacked patch;stripline-fed antenna},\r\n  doi={10.1109/TAP.2023.3240032}}",
+    "timestamp": 1727405620819
   },
   {
-    "event": "tabActivated",
-    "id": 2107285336,
-    "url": "https://arxiv.org/pdf/1210.1433",
-    "title": "arxiv.org/pdf/1210.1433",
-    "windowId": 2107285335,
-    "groupId": -1,
-    "lastAccessed": 1726351314170.75,
-    "timestamp": 1726351314189
+    "event": "highlight",
+    "text": "@ARTICLE{10034461,\r\n  author={Siddiqui, Zeeshan and Sonkki, Marko and Rasilainen, Kimmo and Chen, Jiangcheng and Berg, Markus and Leinonen, Marko E. and Pärssinen, Aarno},\r\n  journal={IEEE Transactions on Antennas and Propagation}, \r\n  title={Dual-Band Dual-Polarized Planar Antenna for 5G Millimeter-Wave Antenna-in-Package Applications}, \r\n  year={2023},\r\n  volume={71},\r\n  number={4},\r\n  pages={2908-2921},\r\n  keywords={Antennas;Bandwidth;Dual band;Antenna feeds;5G mobile communication;Microstrip antennas;Microstrip;Aperture-coupled;base station antenna;stacked patch;stripline-fed antenna},\r\n  doi={10.1109/TAP.2023.3240032}}",
+    "timestamp": 1727405622075
   },
   {
     "event": "windowFocusChanged",
-    "id": 2107285336,
-    "url": "https://arxiv.org/pdf/1210.1433",
-    "title": "arxiv.org/pdf/1210.1433",
-    "windowId": 2107285335,
+    "id": 2062044020,
+    "url": "https://canvas.chapman.edu/courses/68383/discussion_topics/519484",
+    "title": "Topic: Preparing for the Midterm",
+    "windowId": 2062043945,
     "groupId": -1,
-    "lastAccessed": 1726351314332.786,
-    "timestamp": 1726351512155
+    "lastAccessed": 1727471316837.165,
+    "timestamp": 1727471317842
+  },
+  {
+    "event": "tabUpdated",
+    "id": 2062044025,
+    "url": "https://ieeexplore.ieee.org/Xplore/home.jsp",
+    "title": "IEEE Xplore",
+    "windowId": 2062043945,
+    "groupId": -1,
+    "lastAccessed": 1727471320402.653,
+    "timestamp": 1727471322053
+  },
+  {
+    "event": "tabUpdated",
+    "id": 2062044025,
+    "url": "https://ieeexplore.ieee.org/document/10034461",
+    "title": "Dual-Band Dual-Polarized Planar Antenna for 5G Millimeter-Wave Antenna-in-Package Applications | IEEE Journals & Magazine | IEEE Xplore",
+    "windowId": 2062043945,
+    "groupId": -1,
+    "lastAccessed": 1727471330192.192,
+    "timestamp": 1727471330429
+  },
+  {
+    "event": "highlight",
+    "text": "@ARTICLE{10034461,\r\n  author={Siddiqui, Zeeshan and Sonkki, Marko and Rasilainen, Kimmo and Chen, Jiangcheng and Berg, Markus and Leinonen, Marko E. and Pärssinen, Aarno},\r\n  journal={IEEE Transactions on Antennas and Propagation}, \r\n  title={Dual-Band Dual-Polarized Planar Antenna for 5G Millimeter-Wave Antenna-in-Package Applications}, \r\n  year={2023},\r\n  volume={71},\r\n  number={4},\r\n  pages={2908-2921},\r\n  keywords={Antennas;Bandwidth;Dual band;Antenna feeds;5G mobile communication;Microstrip antennas;Microstrip;Aperture-coupled;base station antenna;stacked patch;stripline-fed antenna},\r\n  doi={10.1109/TAP.2023.3240032}}",
+    "timestamp": 1727471334413
+  },
+  {
+    "event": "highlight",
+    "text": "@ARTICLE{10034461,\r\n  author={Siddiqui, Zeeshan and Sonkki, Marko and Rasilainen, Kimmo and Chen, Jiangcheng and Berg, Markus and Leinonen, Marko E. and Pärssinen, Aarno},\r\n  journal={IEEE Transactions on Antennas and Propagation}, \r\n  title={Dual-Band Dual-Polarized Planar Antenna for 5G Millimeter-Wave Antenna-in-Package Applications}, \r\n  year={2023},\r\n  volume={71},\r\n  number={4},\r\n  pages={2908-2921},\r\n  keywords={Antennas;Bandwidth;Dual band;Antenna feeds;5G mobile communication;Microstrip antennas;Microstrip;Aperture-coupled;base station antenna;stacked patch;stripline-fed antenna},\r\n  doi={10.1109/TAP.2023.3240032}}",
+    "timestamp": 1727471335759
+  },
+  {
+    "event": "highlight",
+    "text": "@ARTICLE{10034461,\r\n  author={Siddiqui, Zeeshan and Sonkki, Marko and Rasilainen, Kimmo and Chen, Jiangcheng and Berg, Markus and Leinonen, Marko E. and Pärssinen, Aarno},\r\n  journal={IEEE Transactions on Antennas and Propagation}, \r\n  title={Dual-Band Dual-Polarized Planar Antenna for 5G Millimeter-Wave Antenna-in-Package Applications}, \r\n  year={2023},\r\n  volume={71},\r\n  number={4},\r\n  pages={2908-2921},\r\n  keywords={Antennas;Bandwidth;Dual band;Antenna feeds;5G mobile communication;Microstrip antennas;Microstrip;Aperture-coupled;base station antenna;stacked patch;stripline-fed antenna},\r\n  doi={10.1109/TAP.2023.3240032}}",
+    "timestamp": 1727471775607
+  },
+  {
+    "event": "highlight",
+    "text": "@ARTICLE{10034461,\r\n  author={Siddiqui, Zeeshan and Sonkki, Marko and Rasilainen, Kimmo and Chen, Jiangcheng and Berg, Markus and Leinonen, Marko E. and Pärssinen, Aarno},\r\n  journal={IEEE Transactions on Antennas and Propagation}, \r\n  title={Dual-Band Dual-Polarized Planar Antenna for 5G Millimeter-Wave Antenna-in-Package Applications}, \r\n  year={2023},\r\n  volume={71},\r\n  number={4},\r\n  pages={2908-2921},\r\n  keywords={Antennas;Bandwidth;Dual band;Antenna feeds;5G mobile communication;Microstrip antennas;Microstrip;Aperture-coupled;base station antenna;stacked patch;stripline-fed antenna},\r\n  doi={10.1109/TAP.2023.3240032}}",
+    "timestamp": 1727471776435
+  },
+  {
+    "event": "highlight",
+    "text": "@ARTICLE{10034461,\r\n  author={Siddiqui, Zeeshan and Sonkki, Marko and Rasilainen, Kimmo and Chen, Jiangcheng and Berg, Markus and Leinonen, Marko E. and Pärssinen, Aarno},\r\n  journal={IEEE Transactions on Antennas and Propagation}, \r\n  title={Dual-Band Dual-Polarized Planar Antenna for 5G Millimeter-Wave Antenna-in-Package Applications}, \r\n  year={2023},\r\n  volume={71},\r\n  number={4},\r\n  pages={2908-2921},\r\n  keywords={Antennas;Bandwidth;Dual band;Antenna feeds;5G mobile communication;Microstrip antennas;Microstrip;Aperture-coupled;base station antenna;stacked patch;stripline-fed antenna},\r\n  doi={10.1109/TAP.2023.3240032}}",
+    "timestamp": 1727471777921
+  },
+  {
+    "event": "highlight",
+    "text": "@ARTICLE{10034461,\r\n  author={Siddiqui, Zeeshan and Sonkki, Marko and Rasilainen, Kimmo and Chen, Jiangcheng and Berg, Markus and Leinonen, Marko E. and Pärssinen, Aarno},\r\n  journal={IEEE Transactions on Antennas and Propagation}, \r\n  title={Dual-Band Dual-Polarized Planar Antenna for 5G Millimeter-Wave Antenna-in-Package Applications}, \r\n  year={2023},\r\n  volume={71},\r\n  number={4},\r\n  pages={2908-2921},\r\n  abstract={This article presents a dual-band, dual-polarized antenna operating from 24 up to 40 GHz at 5G new radio (NR) millimeter-wave (mm-Wave) Frequency Range 2 (FR2) bands. A novel stacking arrangement of ring patches is proposed to achieve wide dual-band operation with stable gain. Two pairs of stacked ring patches operating at lower (24.25–29.5 GHz) and upper (37–40 GHz) FR2 bands are alternately integrated at four metal layers. The antenna offers a sharp roll-off and a filter-like response with radiation nulls between the operating bands due to the stacking configuration. The antenna is aperture-coupled and stripline-fed, and it conforms to the antenna-in-package (AiP) requirements. The proposed single antenna element and a  $2\\times 2$  array are fabricated utilizing a standard commercial printed circuit board (PCB) fabrication facility. The measurement results show a decent agreement with the simulations in terms of impedance matching, isolation, radiation patterns, and realized gain. The proposed design is a promising candidate for 5G mm-Wave base station antenna arrays.},\r\n  keywords={Antennas;Bandwidth;Dual band;Antenna feeds;5G mobile communication;Microstrip antennas;Microstrip;Aperture-coupled;base station antenna;stacked patch;stripline-fed antenna},\r\n  doi={10.1109/TAP.2023.3240032},\r\n  ISSN={1558-2221},\r\n  month={April},}",
+    "timestamp": 1727471780402
   },
   {
     "event": "windowFocusChanged",
-    "id": 2107285336,
-    "url": "https://arxiv.org/pdf/1210.1433",
-    "title": "arxiv.org/pdf/1210.1433",
-    "windowId": 2107285335,
+    "id": 2062044025,
+    "url": "https://ieeexplore.ieee.org/document/10034461",
+    "title": "Dual-Band Dual-Polarized Planar Antenna for 5G Millimeter-Wave Antenna-in-Package Applications | IEEE Journals & Magazine | IEEE Xplore",
+    "windowId": 2062043945,
     "groupId": -1,
-    "lastAccessed": 1726351314332.786,
-    "timestamp": 1726351546568
+    "lastAccessed": 1727471769793.807,
+    "timestamp": 1727471783422
   }
 ]
